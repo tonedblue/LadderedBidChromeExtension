@@ -1,0 +1,2 @@
+# LadderedBidChromeExtension
+Laddered Bids Calculator
