@@ -1,0 +1,10 @@
+{
+    "name": "Laddered Bids Calculator",
+    "version": "1.0",
+    "description": "Laddered bids calculator for trading crypto, forex and traditonal markets.",
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon16.png"
+    },
+    "manifest_version": 2
+}

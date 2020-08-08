@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        button {
+            height: 60px;
+            width: 350px;
+            font-weight: 400;
+            outline: none;
+            color: aliceblue;
+            background: cornflowerblue;
+            border: 0px;
+            padding: 0px;
+            font-weight: bold;
+            margin-top: 30px;
+        }
+        
+        table {
+            margin: auto;
+        }
+        
+        #error {
+            color: red;
+        }
+        
+        html,
+        body {
+            font-family: Roboto, Arial;
+            color: #4d4d4d;
+            font-weight: 400;
+            font-size: 16px;
+        }
+        
+        input[type=text],
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        
+        p {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <input type="text" id="max_price" placeholder="Max Price" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="min_price" placeholder="Min Price" />
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="bids" placeholder="Number Of Bids" />
+            </td>
+        </tr>
+    </table>
+
+    <button id="calculate">CALCULATE</button>
+    <script src="popup.js"></script>
+    <p id="error"></p>
+    <p id="result"></p>
+
+</body>
+
+</html>
