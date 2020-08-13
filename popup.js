@@ -60,7 +60,7 @@ function print(bidRange) {
 function getDecimalPlaces(number) {
     let fallback = 2;
     if (Math.floor(number) !== number) {
-        return number.toString().split(".")[1].length || fallback;
+        return number.toString().split(".")[1].length + 3 || fallback;
     }
     return fallback;
 }
